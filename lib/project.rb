@@ -9,7 +9,7 @@ class Project
 
   def add_backer(backer)
     self.backers << backer
-    barker.backed_projects << self
+    barcker.backed_projects << self
     end
 
 
