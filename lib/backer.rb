@@ -13,9 +13,10 @@ def self.backed_projects
   @@backed_projects
  end
 
-  def backed_project(project)
+  def back_project(project)
   backed_projects << self
   self.backed_projects << project
     end
+
 
 end
