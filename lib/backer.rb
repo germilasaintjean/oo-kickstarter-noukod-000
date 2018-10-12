@@ -12,7 +12,7 @@ class Backer
 def self.backed_projects
   @@backed_projects
   end
-  
+
   def self.backed_project(project)
     self.backed_projects.save
     end
