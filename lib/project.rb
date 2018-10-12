@@ -9,6 +9,8 @@ class Project
 
   def add_backer(backer)
     self.backers << backer
-  end
+    barker.backers << self
+    end
+
 
 end
